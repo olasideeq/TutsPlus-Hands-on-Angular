@@ -1,0 +1,11 @@
+# Run both of these commanes from the home directory
+npm install karma-jasmine --save-dev
+npm install karma-chrome-launcher --save-dev
+npm install -g karma-cli
+
+# Then run this again:
+npm install
+
+# I had to run this from ~
+brew upgrade
+

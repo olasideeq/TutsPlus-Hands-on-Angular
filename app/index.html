@@ -22,6 +22,9 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
+    <navigation></navigation>
+    <!-- <div ng-include="'views/partials/_navigation.html'" ng-controller="NavigationController"></div> -->
+
     <!-- Add your site or application content here -->
     <div class="container" ng-view=""></div>
 
@@ -55,7 +58,9 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/navigation.js"></script>
+        <script src="scripts/directives/navigation.js"></script>
+        <script src="scripts/controllers/edges.js"></script>
         <!-- endbuild -->
 </body>
 </html>
